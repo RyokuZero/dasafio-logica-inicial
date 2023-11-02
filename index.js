@@ -1,6 +1,6 @@
 
 let name = "Brabo"
-let nivel = 100000
+let nivel = 10001
 
 switch (true){
       case (nivel <= 1000):
@@ -31,10 +31,11 @@ switch (true){
       console.log("O Herói de nome " + name + " está no nível Imortal")
       break
       
-      case (nivel > 10001):
+      case (nivel > 10000):
       console.log("O Herói de nome " + name + " está no nível Radical")
       break
       
       default:
         console.log("Por favor informar dados numericos apenas");
 }
+
